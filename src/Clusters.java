@@ -108,8 +108,7 @@ public class Clusters {
         }
         d30k = sum/points.size() + 30*clasters.size();
 
-        System.out.println("==================================================");
-        System.out.println("==================================================");
+        System.out.println("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
         System.out.println("Всего кластеров получилось: " + clasters.size());
         System.out.println("Критерий качества: " + df.format(d30k));
         for (Cluster ct: clasters) {
